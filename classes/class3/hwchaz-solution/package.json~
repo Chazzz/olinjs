@@ -1,0 +1,15 @@
+{
+  "name": "hwchaz-solution",
+  "version": "1.0.0",
+  "description": "solution for hw 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.3",
+    "express": "^4.11.2"
+  }
+}
