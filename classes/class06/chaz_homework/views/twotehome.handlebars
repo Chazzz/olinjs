@@ -1,0 +1,23 @@
+<div id="twotes">
+	{{#each twotes}}
+		<div id="twote">
+			<div id="text">{{this.text}}</div>
+			{{#if this.isDeletable}}
+			    <form class='twote' id={{this._id}} action="removeTwote" method="POST">
+					<input type="submit" value="Delete">
+				</form>
+		    {{/if}}
+			<div id="signature">-{{this.user}}</div>
+		</div>
+	{{/each}}
+</div>
+<div id="users">
+	<div id="usertitle">
+		Users
+	</div>
+	{{#each users}}
+		<div id="user">
+		    {{this.user}}
+		</div>
+	{{/each}}
+</div>
