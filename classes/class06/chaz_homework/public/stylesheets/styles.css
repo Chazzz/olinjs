@@ -1,0 +1,113 @@
+/* defaults */
+body {
+	margin: 0;
+}
+
+p {
+	margin: 15px 0;
+}
+
+/* Twoter styles*/
+#wrapper
+{
+    width: 95%;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+  overflow: auto;
+}
+
+#header
+{
+    margin: 5px;
+    /* border: 2px solid black; */
+  height: 50px;  
+}
+#header-e1
+{
+    float: left;
+  font-size: 300%
+}
+#header-e3
+{
+
+    margin: 5px;
+  padding: 5px;
+  background-color: #ddd;
+  font-size: 200%;
+  font-color: black;
+}
+#header-e1 {float: left;}
+#header-e2 {overflow: hidden;}
+#header-e3 {float: right;}
+
+a:link {
+    color: #000000;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+  text-decoration: underline
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
+
+#nav
+{
+    margin: 5px;
+  border: 2px solid black;
+  width: 300px;
+}
+#content
+{
+  margin: 20px;
+}
+#twotes
+{
+  float: left;
+  width: 70%;
+}
+#twote
+{
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+#signature
+{
+  float:right;
+  padding-right: 0px;
+}
+form.twote
+{
+	float: right;
+	padding-left: 10px;
+}
+#users
+{
+  float: right;
+  width: 25%
+}
+#usertitle
+{
+	font-size: 200%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#user
+{
+  background-color: #ddd;
+  margin: 5px;
+  padding: 5px;
+}
